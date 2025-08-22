@@ -49,6 +49,7 @@
       justify-content: center;
       position: relative;
       z-index: 1;
+      flex-direction: column;
     }
     .console-box {
       text-align: center;
@@ -96,6 +97,21 @@
       from { color: #00ff99; }
       to   { color: #ff0066; }
     }
+    footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #00ff99;
+    }
+    footer a {
+      color: #00ff99;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: #ff0066;
+    }
   </style>
 </head>
 <body>
@@ -108,6 +124,9 @@
       <button id="register" onclick="window.location.href='https://tinyurl.com/PMPwithSamuel'">Access Registration</button>
     </div>
   </div>
+  <footer>
+    Designed by <a href="https://www.linkedin.com/in/samuel-ajayi-opemipo/" target="_blank">w1t3ack3r</a>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
